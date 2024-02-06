@@ -322,7 +322,6 @@ img {
 }
 
 .home__description{
-  text-align: justify;
   text-justify: inter-word;
   margin-bottom: var(--mb-2);
 }
