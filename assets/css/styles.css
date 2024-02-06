@@ -326,6 +326,10 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.home__highlight {
+  color: #F9660B;
+}
+
 .home__scroll{
    display: none;
 }
