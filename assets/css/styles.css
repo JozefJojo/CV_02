@@ -426,8 +426,13 @@ img {
 
 .about__info{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   margin-bottom: var(--mb-2-5);
+}
+
+.about__info-elem{
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .about__info-name{
@@ -444,6 +449,11 @@ img {
 .about__info-name{
   display: block;
   text-align: center;
+}
+
+.projects__container{
+  grid-template-columns: repeat(3, 218px);
+  justify-content: center;
 }
 
 
@@ -1202,7 +1212,7 @@ img {
     justify-self: center;
   }
   
-  .about__container,
+  /* .about__container, */
   .skills__container,
   .paper__content,
   .project__container,
@@ -1233,7 +1243,7 @@ img {
   }
 
   .section__subtitle{
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
 
   .header{
@@ -1295,6 +1305,7 @@ img {
 
   .about__container{
     column-gap: 5rem;
+    justify-content: center;
   }
 
   .about__img{
@@ -1302,11 +1313,8 @@ img {
   }
 
   .about__description{
+    text-indent: 20px;
     text-align: justify;
-  }
-
-  .about__info{
-    justify-content: space-between;
   }
 
   .about__buttons{
