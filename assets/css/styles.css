@@ -168,6 +168,16 @@ img {
   gap: 1.5rem;
 }
 
+.grid__skills {
+  display: grid;
+  gap: var(--mb-1);
+}
+
+.grid__skills__container {
+  display: grid;
+  gap: var(--mb-3);
+}
+
 .header {
   width: 100%;
   position: fixed;
@@ -510,6 +520,11 @@ img {
   font-weight: var(--font-medium);
 }
 
+.skills__evaluation{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
 .skills__bar,
 .skills__percantage{
