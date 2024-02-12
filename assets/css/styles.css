@@ -841,12 +841,23 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.project__subtitle{
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-0-25);
+}
+
 .project__description{
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: var(--mb-0-5);
 }
 
 .project__title,
-.project__description{
+.project__subtitle,
+.projects_description__container{
+  color: #7c716a;
+}
+
+.question__title,
+.question__description{
   color: #FFF;
 }
 
@@ -1389,8 +1400,19 @@ img {
     column-gap: 3rem;
   }
 
+  .projects_description__container{
+    /* background-color: var(--first-color-second); */
+    border: 2px solid #7c716a;
+    border-radius: 1rem;
+    padding: 0rem 2.5rem 0;
+    grid-template-columns: 1fr max-content;
+    column-gap: 3rem;
+  }
+
+
   .project__data{
-    padding-top: .8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .footer__container{
