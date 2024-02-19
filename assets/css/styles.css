@@ -437,16 +437,22 @@ img {
 .about__info{
   display: flex;
   justify-content: flex-start;
-  margin-bottom: var(--mb-2-5);
+  margin-top: var(--mb-0-5);
+  margin-bottom: var(--mb-1-5);
 }
 
 .about__info-elem{
   margin-right: 0.5rem;
   margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
 }
 
 .about__info-name{
   font-size: var(--smaller-font-size);
+  margin-top: var(--mb-0-25);
 }
 
 .about__info-title{
@@ -843,6 +849,7 @@ img {
 
 .project__subtitle{
   font-size: var(--normal-font-size);
+  margin-top: var(--mb-1);
   margin-bottom: var(--mb-0-25);
 }
 
@@ -866,6 +873,10 @@ img {
   justify-self: center;
 }
 
+.project__technologies_img{
+  width: 30px;
+  justify-self: center;
+}
 
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
@@ -1412,7 +1423,6 @@ img {
 
   .project__data{
     padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   .footer__container{
