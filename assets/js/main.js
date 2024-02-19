@@ -256,9 +256,14 @@ function SendMail(){
         subject : document.getElementById("subject").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_4ajtfo5", "template_ryff15a", params).then(function (res){
+ 
+    var YOUR_EMAILJS_PUBLIC_KEY = '0oszv3_5OVcqbTPoW';
+
+    emailjs.send("service_7yfjf89", "template_tson139", params, YOUR_EMAILJS_PUBLIC_KEY).then(function (res){
         // alert("Success! " + res.status);
         // alert("Your message has been sent successfully!");
         swal("Success!", "Your message has been sent!", "success");
     })
+
+
 }
