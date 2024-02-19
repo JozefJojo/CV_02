@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Erol Bicer's Responsive Portfolio Website
 ## Website URL: www.erolbicer.com
 
@@ -21,3 +22,6 @@
 
 ![preview img](./assets/snaps/dark.png)
 
+=======
+# my_resume_cv
+>>>>>>> 37fd31702bd43a909f6ccc0db5802230589ef69b
